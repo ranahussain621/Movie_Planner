@@ -1,5 +1,5 @@
 body {
-    background-image: url("2.jpg");
+    background-image: url("images/2.jpg");
 background-size: 100%;
 font-family: sans-serif;
 color: #444;
@@ -32,7 +32,7 @@ p {
 }
 
 #page-banner {
-    background-image: url("1.jpg");
+    background-image: url("images/1.jpg");
     background-size: 100%;
     align-items: center;
     padding: 10px 0;
@@ -63,6 +63,9 @@ span {
     }
 
     #movie-list li span:hover {
+        border-color: #251e2b;
+    }
+    #movie-list li span::after {
         border-color: #251e2b;
     }
 
