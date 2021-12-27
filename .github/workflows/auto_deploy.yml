@@ -35,7 +35,7 @@ jobs:
       - name: Installing Surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./ https://moviesplanner.surge.sh --token $ {{ secretes.SURGE_TOKEN }}
+        run: surge ./ https://moviesplanner.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
         
 
         
